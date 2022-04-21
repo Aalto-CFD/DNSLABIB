@@ -67,7 +67,7 @@ y = (Ly-dy)*(0:(Ny-1))/(Ny-1); % otherwise the derivative of
                                % e.g. sin(x) wouldnt be
                                % differentiable on this periodic
                                % grid
-z = (Lz-dy)*(0:(Nz-1))/(Nz-1);
+z = (Lz-dz)*(0:(Nz-1))/(Nz-1);
 
 dnoz = 0.014;
 
